@@ -30,8 +30,8 @@ https://bamus-spa-roku.amagi.tv/playlist.m3u8
 #EXTINF:0 type=logo="https://television.tiendec.com/wp-content/uploads/2022/06/34970a702bcb2748f65f-1.png" group-title="C. DE NOTICIAS", RT
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 
-#EXTINF:0, 24 horas
-https://rtvelivestream.akamaized.net/segments/24h/24h_main_dvr.m3u8
+#EXTINF:-1, 24 horas
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
 
 #EXTINF:0 type=logo="https://provider-static.plex.tv/epg/images/thumbnails/euronewsespanol_artwork_vertical.jpg" group-title="C. DE NOTICIAS" catchup="default",, EURONEWS
 https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
@@ -57,6 +57,8 @@ https://v-ny.mybtv.net/live/659.m3u8
 #EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/1015/696/png-transparent-unimas-borderfest-television-film-univision-marilyn-moore-television-text-logo.png" group-title="NUEVA YORK", UNIMAS NY
 https://v-ny.mybtv.net/live/713.m3u8
 
+#EXTINF:0 type="stream" logo="https://lh3.googleusercontent.com/tJORmP-yE9G662Q_M22GgTbD82o7MzOQLAkKwerNi4QA0JJcQ9mAagEOVrQxAr8ZRhk" group-title="LOS ANGELES",  CBS KCBS2 LA
+https://v-la.mybtv.net/live/161.m3u8
 #EXTINF:0 type="stream" logo="https://s30368.pcdn.co/wp-content/uploads/2020/04/nbc4.png" group-title="LOS ANGELES", NBC4 LOS ANGELES
 https://v-la.mybtv.net/live/82.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/KTLA_logo.svg/1200px-KTLA_logo.svg.png"group-title="LOS ANGELES", KTLA5 L.A.
@@ -65,9 +67,9 @@ https://v-la.mybtv.net/live/164.m3u8
 https://v-la.mybtv.net/live/88.m3u8
 #EXTINF:0 type="stream" logo="https://m.media-amazon.com/images/M/MV5BNGMwOTA4OWItOTZiOC00Zjk1LTk5NWUtYTQyMjI1NTdlYTE2XkEyXkFqcGdeQXVyMjQ4ODQ5MDI@._V1_FMjpg_UX1000_.jpg"  group-title="LOS ANGELES", K-CAL9 LOS ANGELES
 https://v-la.mybtv.net/live/259.m3u8
-#EXTINF:0 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/04/Univisi%C3%B3n-Los-%C3%81ngeles-en-vivo-Online.png" group-title="LOS ANGELES", UNIVISIÓN 34 LOS ANGELES
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/04/Univisi%C3%B3n-Los-%C3%81ngeles-en-vivo-Online.png" group-title="LOS ANGELES", UNIVISIÓN 34 LOS ANGELES
 https://v-la.mybtv.net/live/178.m3u8
-#EXTINF:0 tvg-logo="https://static.epg.best/mx/Telemundo.mx.png" group-title="LOS ANGELES", TELEMUNDO 52 FHD LA
+#EXTINF:-1 tvg-logo="https://static.epg.best/mx/Telemundo.mx.png" group-title="LOS ANGELES", TELEMUNDO 52 FHD LA
 https://v-la.mybtv.net:443/live/267/1920x1080.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets1.cbsnewsstatic.com/hub/i/2022/04/20/c8c834c1-99fd-461a-8a42-f6c7b611cae0/kpix-cbs-san-francisco-cbs-news-bay-area.jpg", CBS 5 A. DE LA BAHIA
@@ -76,6 +78,8 @@ https://v-ca.mybtv.net/live/162.m3u8
 https://v-ca.mybtv.net/live/121.m3u8
 #EXTINF:-1 tvg-logo="https://static.univision.com/fragments/noticias/home-locales-tudn/images/radio-stations/san-francisco/univision-14-ca.png", Univisión 14 HD A.BAHIA
 https://v-ca.mybtv.net/live/148.m3u8
+#EXTINF:-1 tvg-logo="https://static.univision.com/fragments/noticias/home-locales-tudn/images/radio-stations/san-francisco/univision-14-ca.png", Univisión 14 HD A.BAHIA
+https://v-ca.mybtv.net/live/163.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Telemundo_48_2018.png", Telemundo 48 FHD  A. BAHIA
 https://v-ca.mybtv.net/live/140.m3u8
 
@@ -374,9 +378,11 @@ https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist-480p.m3u8?PlaylistM3UC
 https://shls-m6-france-prod-dub.shahid.net/out/v1/c8a9f6e000cd4ebaa4d2fc7d18c15988/index_1.m3u8
 
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/drama/images/0/0f/CCTV-1.png/revision/latest/scale-to-width-down/400?cb=20170925221657&path-prefix=es" catchup="default", CCTV1 HD
-http://111.40.196.9/PLTV/88888888/224/3221225548/index.m3u8
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225918/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/drama/images/0/0f/CCTV-1.png/revision/latest/scale-to-width-down/400?cb=20170925221657&path-prefix=es", CCTV1 SD INTERNET 
 https://cctvwbndks.v.kcdnvip.com/cctvwbnd/cctv1_2/index.m3u8
+
 #EXTINF:0 type=logo="https://yt3.ggpht.com/ytc/AMLnZu_-q7kpHwztlzr5seK1S4lb275k0RWgRcw8Msf_=s900-c-k-c0x00ffffff-no-rj" group-title="C. DE NOTICIAS", NTV24 HD JAPON 
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/1200px-NHK_World-Japan_TV.svg.png" group-title="C. DE NOTICIAS", Canal NHK WORDL JAPON INGLES
